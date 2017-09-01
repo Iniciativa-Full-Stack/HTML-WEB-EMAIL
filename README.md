@@ -81,5 +81,4 @@
 * Evite usar a expressão “você” no assunto do e-mail.
 
 # Desafio
-E-mail-Pratica\Layout
 ![E-mail Desafio](/E-mail-Pratica/Layout/Email-Marketing-Meetup.png)
