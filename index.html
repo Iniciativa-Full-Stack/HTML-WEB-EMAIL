@@ -1,0 +1,335 @@
+﻿<!DOCTYPE html>
+<html lang="pt">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Meetup HTML</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/moon.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Meetup HTML</h1>
+					<h3>Estrutura Html para E-mails</h3>
+					<p>
+						<small>Created by <a href="#">Gustavo Caspirro</a></small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Overview</h2>
+					<ul>
+						<li>Diferenças na hora de estruturar o HTML.</li>
+						<ul>
+							<li>HTML para WEB</li>
+							<li>HTML para E-MAIL</li>
+						</ul>
+						<li>Técnicas Anti-Spam</li>
+						<li>Na Prática</li>
+						<li>Links Importantes</li>
+						<li>Desafio...</li>
+					</ul>
+				</section>
+
+				<!-- HTML WEB -->
+				<section>
+					<section>
+						<h2>HTML para WEB</h2>
+						<p>HTML5</p>
+						<br>
+						<span>
+							<img data-src="img/structure-html5.png" alt="Estrutura HTML5">
+						</span>
+					</section>
+					<section>
+						<h2>Estrutura</h2>
+						<pre><code class="html" data-trim contenteditable>
+
+							<!-- <html> -->
+								<!-- <head> -->
+									<meta charset="utf-8">
+									<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+									<title>WEB</title>
+								<!-- </head> -->
+								<!-- <body> -->
+									<header>
+										<nav>
+											...
+										</nav>
+									</header>
+									<section>
+										<article>
+											<header>
+											</header>
+											...
+											<footer>
+											</footer>
+										</article>
+									</section>
+									<aside>
+										...
+									</aside>
+									<footer>
+										...
+									</footer>
+								<!-- </body> -->
+							<!-- </html> -->
+
+						</code></pre>
+					</section>
+					<section>
+						<h2>CSS</h2>
+						<pre><code class="html" data-trim contenteditable>
+
+							<!-- <head> -->
+								<meta charset="utf-8">
+								<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+								<title>Meetup</title>
+								<link rel="stylesheet" href="css/style.css">
+								<style>
+
+								</style>
+							<!-- </head> -->
+
+							<!--<body>-->
+								<h1 style="color: #000;"></h1>
+							<!--</body>-->
+
+						</code></pre>
+					</section>
+
+					<section>
+						<h2>Conhecendo um pouco mais</h2>
+						<ul>
+							<li>Media Query</li>
+							<li>Viewport</li>
+							<li>Box Model, Tableless, Grids (Bootstrap),Flexbox, Grid Layout</li>
+							<li>link</li>
+							<li>style</li>
+							<li>body</li>
+							<li>div</li>
+							<li>script</li>
+						</ul>
+					</section>
+
+				</section>
+
+				<!-- HTML E-MAIL -->
+				<section>
+					<section>
+						<h2>HTML E-MAIL</h2>
+						<p>Estrutura</p>
+						<br>
+						<span>
+							<img data-src="img/structure-email.png" alt="Estrutura E-MAIL">
+						</span>
+					</section>
+					<section>
+						<h2>Estrutura</h2>
+						<pre><code class="html" data-trim contenteditable>
+
+							<!-- <html> -->
+								<!-- <head> -->
+									<meta charset="utf-8">
+									<title>E-MAIL</title>
+								<!-- </head> -->
+								<!-- <body> -->
+									<table>
+										<tbody>
+											<tr>
+												<td></td>
+											</tr>
+										</tbody>
+									</table>
+								<!-- </body> -->
+							<!-- </html> -->
+
+						</code></pre>
+					</section>
+					<section>
+						<h2>Chamando o CSS</h2>
+						<p><span class="fragment">Ué? Cadê o exemplo?</span> <span class="fragment"> óh ele ai </span></p>
+						<span class="fragment">
+							<pre><code class="html" data-trim contenteditable>
+
+								<span style="color:#000; font-size: 13px; ..."></span>
+
+							</code></pre>
+						</span>
+						<p><span class="fragment" style="color: #de4040;font-weight: 700;font-size: 56px;">CSS INLINE</span></span></p>
+					</section>
+
+					<section>
+						<h2>Conhecendo um pouco mais</h2>
+						<ul>
+							<li>Table (Estrutura)</li>
+							<li>CSS inline (style=“...”)</li>
+							<li>Propriedades html (bgcolor, cellspacing, cellpadding, width, height, alt...)</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>O QUE EVITAR</h2>
+						<ul>
+							<li>Media Query</li>
+							<li>Viewport</li>
+							<li>Grids(Grid, Flexbox)</li>
+							<li>link</li>
+							<li>style</li>
+							<li>div</li>
+							<li>script</li>
+							<li>body</li>
+						</ul>
+					</section>
+
+				</section>
+
+				<section data-transition="slide" data-background="rgb(43, 91, 165)" data-background-transition="zoom">
+					<section>
+						<h2>Técnicas Anti-Spam</h2>
+						<br>
+						<span>
+							<img data-src="img/spam.jpg" alt="Spam">
+						</span>
+					</section>
+					<section>
+						<h3>O QUE EVITAR</h3>
+						<ul>
+							<li style="color: #fff;">Só imagem.</li>
+							<li style="color: #fff;">“crédito”, “clique aqui”, “grátis”, “curso”, “especialmente pra você”, “a partir de R$…” e “confira”</li>
+							<li style="color: #fff;">Sem mídia(áudio e/ou vídeo)</li>
+							<li style="color: #fff;">“emailmkt”, “emkt”, “mailmkt” (imagens e links).</li>
+							<li style="color: #fff;">Não use links com destino para arquivos *.exe, *.scr, *.prf ou *.dll.</li>
+							<li style="color: #fff;">Evite usar a expressão “você” no assunto do e-mail.</li>
+						</ul>
+					</section>
+				</section>
+
+				<section data-transition="slide" data-background="rgb(124, 43, 165)" data-background-transition="convex">
+					<section>
+						<h2>Na Prática</h2>
+						<p style="color: #ffffff;">
+							Estrutura html de um e-mail marketing.
+						</p>
+					</section>
+
+					<section data-transition="slide" data-background="rgb(124, 43, 165)" data-background-transition="convex">
+						<h2>Layout</h2>
+						<img src="img/layout-email.png" alt="Layout E-mail" style="border: none;">
+					</section>
+				</section>
+
+				<section data-transition="slide" data-background="rgb(27, 27, 27)" data-background-transition="convex">
+					<section>
+						<h2>Links Importantes</h2>
+						<p>
+							<a href="https://www.campaignmonitor.com/css/" target="_blank">https://www.campaignmonitor.com/css/</a>
+							<a href="https://litmus.com/email-testing" target="_blank">https://litmus.com/email-testing</a>
+							<a href="https://putsmail.com/tests/new" target="_blank">https://putsmail.com/tests/new</a>
+							<a href="http://www.konstati.com/" target="_blank">http://www.konstati.com/</a>
+						</p>
+					</section>
+				</section>
+
+				<section style="text-align: left;">
+					<h1>ACABOUUUU :)</h1>
+					<p><span class="fragment">Obrigado!</span></p>
+				</section>
+
+				<section style="text-align: left;" data-background="rgb(183, 58, 37)">
+					<h2>Calma ae pessoal, temos o desafio :)</h1>
+					<p><span class="fragment" style="color: #fff;">Não esqueci dele!</span></p>
+				</section>
+
+				<section data-transition="slide" data-background="rgb(183, 58, 37)" data-background-transition="convex">
+					<section>
+						<h2>DESAFIO</h2>
+						<p style="color: #fff;">
+							Estrutura HTML.
+						</p>
+					</section>
+
+					<section data-transition="slide" data-background="rgb(183, 58, 37)" data-background-transition="convex">
+						<h2>Layout</h2>
+						<img src="img/layout-email.png" alt="Layout E-mail" style="border: none;">
+					</section>
+				</section>
+
+				<section>
+					<h2>Referências</h2>
+					<ul>
+						<a href="https://templateria.com/blog/templates/15-boas-praticas-antispam-para-o-template-de-email-marketing/" target="_blank"><li>templateria.com</li></a>
+						<a href="http://joaoapolinario.com/como-escrever-um-bom-email-profissional-em-11-passos/" target="_blank"><li>joaoapolinario.com</li></a>
+						<a href="https://pluga.co/blog/marketing/como-fazer-email-marketing/" target="_blank"><li>pluga.co</li></a>
+						<a href="https://www.campaignmonitor.com/css/" target="_blank"><li>campaignmonitor.com</li></a>
+						<a href="https://litmus.com/email-testing" target="_blank"><li>litmus.com</li></a>
+						<a href="https://putsmail.com/tests/new" target="_blank"><li>putsmail.com</li></a>
+						<a href="http://www.konstati.com/" target="_blank"><li>konstati.com</li></a>
+					</ul>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
