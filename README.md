@@ -83,6 +83,3 @@
 # Desafio
 E-mail-Pratica\Layout
 ![E-mail Desafio](/E-mail-Pratica/Layout/Email-Marketing-Meetup.png)
-Format: ![Alt Text](url)
-
-
