@@ -80,6 +80,9 @@
 * Não use links com destino para arquivos *.exe, *.scr, *.prf ou *.dll.
 * Evite usar a expressão “você” no assunto do e-mail.
 
-
+# Desafio
+E-mail-Pratica\Layout
+![E-mail Desafio](/E-mail-Pratica/Layout/Email-Marketing-Meetup.png)
+Format: ![Alt Text](url)
 
 
