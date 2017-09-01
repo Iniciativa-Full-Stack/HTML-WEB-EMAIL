@@ -1,23 +1,23 @@
-#Meetup HTML
+# Meetup HTML
 
-###Estrutura Html para E-mails
+### Estrutura Html para E-mails
 
 
-#Overview
+# Overview
 
-*Diferenças na hora de estruturar o HTML.
-	*HTML para WEB
-	*HTML para E-MAIL
+* DiferenÃ§as na hora de estruturar o HTML.
+	* HTML para WEB
+	* HTML para E-MAIL
 
-*Técnicas Anti-Spam
-*Na Prática
-*Links Importantes
-*Desafio
-*Referências
+* TÃ©cnicas Anti-Spam
+* Na PrÃ¡tica
+* Links Importantes
+* Desafio
+* ReferÃªncias
 
 ---------
 
-#HTML para WEB
+# HTML para WEB
 ```html
 <html>
 	<head>
@@ -50,7 +50,7 @@
 </html>
 ```
 
-#Html para E-mail
+# Html para E-mail
 ```html
 <html>
 	<head>
@@ -69,18 +69,16 @@
 </html>
 ```
 
-#Técnicas Anti-Spam
+# TÃ©cnicas Anti-Spam
 
-##Evitar
+## Evitar
 
-*Só imagem.
-*“crédito”, “clique aqui”, “grátis”, “curso”, “especialmente pra você”, “a partir de R$…” e “confira”
-*Sem mídia(áudio e/ou vídeo)
-*“emailmkt”, “emkt”, “mailmkt” (imagens e links).
-*Não use links com destino para arquivos *.exe, *.scr, *.prf ou *.dll.
-*Evite usar a expressão “você” no assunto do e-mail.
-
-
+* SÃ³ imagem.
+* â€œcrÃ©ditoâ€, â€œclique aquiâ€, â€œgrÃ¡tisâ€, â€œcursoâ€, â€œespecialmente pra vocÃªâ€, â€œa partir de R$â€¦â€ e â€œconfiraâ€
+* Sem mÃ­dia(Ã¡udio e/ou vÃ­deo)
+* â€œemailmktâ€, â€œemktâ€, â€œmailmktâ€ (imagens e links).
+* NÃ£o use links com destino para arquivos *.exe, *.scr, *.prf ou *.dll.
+* Evite usar a expressÃ£o â€œvocÃªâ€ no assunto do e-mail.
 
 
 
